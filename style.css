@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+nav{
+    background-color: #0077b7;
+    color: #fff;
+    padding: 50px;
+    text-transform: capitalize;
+    text-align: center;
+}
+nav h1{
+    margin-left: 40px;
+    text-transform: capitalize;
+}
+article{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+.app{
+    padding: 10px;
+    border: solid #0077b7;
+    width: fit-content;
+}
+.app a{
+    text-decoration: none;
+    color: #000;
+}

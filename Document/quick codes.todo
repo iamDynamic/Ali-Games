@@ -1,0 +1,24 @@
+if(id === ""){
+     console.log("your id is : " + id)
+     q.innerHTML = Data.l.q
+     a1.innerHTML = Data.l.a1
+     a2.innerHTML = Data.l.a2
+     function correct(){
+               this.style.backgroundColor = "#0077b7"
+               this.style.color = "#fff"
+               setTimeout(()=>{
+                    location.href = "/computer%20quizez/index.html?id="
+               },3000)
+     }
+     function notcorrect(){
+               this.style.backgroundColor = "red"
+               this.style.color = "#fff"
+               setTimeout(()=>{
+                    location.href = "/computer%20quizez/index.html?id="
+               },3000)
+     }
+     a1.addEventListener("click",notcorrect)
+     a2.addEventListener("click",notcorrect)
+     a3.addEventListener("click",notcorrect)
+     a4.addEventListener("click",notcorrect)
+}
